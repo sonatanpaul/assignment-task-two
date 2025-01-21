@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-button button {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  border: none;
+  padding: 10px 35px;
+}
+
+.home-link {
+  color: rgb(254, 163, 1);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.about-link {
+  color: rgb(1, 172, 253);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.facilities-link {
+  color: rgb(5, 212, 223);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.admission-link {
+  color: rgb(93, 88, 239);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.icon {
+  font-size: 40px;
+  display: none;
+}
+
+/* Mobile Responsive Media  */
+
+@media only screen and (max-width: 576px) {
+  .nav-link {
+    display: none;
+  }
+
+  .nav-button button {
+    display: none;
+  }
+
+  .nav-button .icon {
+    display: block;
+    padding: 0px 10px 0px 0px;
+  }
+
+  .nav-container h1 {
+    display: none;
+  }
+
+  .nav-container {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(254, 163, 1);
+  }
+}
