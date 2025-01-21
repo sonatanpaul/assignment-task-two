@@ -440,6 +440,23 @@
   background: rgb(93, 88, 240);
 }
 
+.stories-button {
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding: 10px 40px;
+}
+
+.view-all-button {
+  margin-top: 80px;
+  text-align: center;
+}
+
 .footer-container {
   padding-top: 220px;
   height: 470px;
