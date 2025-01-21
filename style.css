@@ -159,7 +159,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 120px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -238,6 +238,207 @@
     rgb(255, 255, 255);
 }
 
+.elementary-show-more {
+  color: rgb(240, 170, 0);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+}
+
+.middle-show-more {
+  color: rgb(135, 0, 255);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+}
+
+.kinder-show-more {
+  color: rgb(100, 200, 255);
+  font-family: Quicksand;
+  font-size: 15.09px;
+  font-weight: 700;
+  line-height: 28.3px;
+}
+
+.card-heading {
+  color: rgb(32, 32, 32);
+  font-family: Quicksand;
+  font-size: 24.52px;
+  font-weight: 700;
+  line-height: 30.65px;
+}
+
+.card-text {
+  color: rgb(128, 128, 128);
+  font-family: Raleway;
+  font-size: 15.09px;
+  font-weight: 500;
+  line-height: 28.3px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.arrow-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-icon {
+  border-radius: 50%;
+  color: white;
+  padding: 20px;
+  background: rgb(254, 163, 1);
+}
+
+.right-icon {
+  border-radius: 50%;
+  color: white;
+  padding: 20px;
+  background: rgb(254, 163, 1);
+}
+
+.stories-container {
+  background: url(./assets/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  padding: 60px 0px 60px 0px;
+}
+
+.stories-heading {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.stories-card-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.stories-small-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.small-card {
+  width: 291px;
+  height: 280px;
+  background: rgb(255, 255, 255);
+  border-radius: 16px 16px 16px 16px;
+  position: relative;
+}
+
+.small-card img {
+  border-radius: 16px 16px 0px 0px;
+}
+
+.card-content {
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.stories-big-card {
+  background-color: white;
+  border-radius: 16px;
+  width: 540px;
+  height: 580px;
+  position: relative;
+}
+
+.stories-big-card img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.big-card-content {
+  padding: 20px;
+}
+
+.big-card-heading {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.35px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.big-card-text {
+  color: rgb(102, 102, 102);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.big-card-button {
+  position: absolute;
+  top: 312px;
+  right: 300px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  text-align: left;
+  text-transform: capitalize;
+  border: none;
+  padding: 12px 20px;
+}
+
+.small-card-button-one {
+  top: 155px;
+  left: 40px;
+  border-radius: 47.93px;
+  position: absolute;
+  background: rgb(149, 178, 38);
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  text-align: left;
+  border: none;
+  padding: 4px 6px;
+  text-transform: capitalize;
+}
+
+.small-card-button-two {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 4px 6px;
+  border-radius: 47.93px;
+  border: none;
+  bottom: 90px;
+  left: 60px;
+  position: absolute;
+  background: rgb(93, 88, 240);
+}
 /* Mobile Responsive Media  */
 
 @media only screen and (max-width: 576px) {
@@ -302,6 +503,7 @@
 
   .curriculum-card-container {
     flex-direction: column;
+    gap: 20px;
   }
 
   .kinder-card {
@@ -327,5 +529,36 @@
     font-weight: 700;
     line-height: 33px;
     text-align: center;
+  }
+
+  .arrow-icon-container {
+    display: none;
+  }
+
+  .stories-big-card {
+    display: none;
+  }
+
+  .stories-small-card {
+    gap: 10px;
+  }
+
+  .small-card {
+    width: 173.27px;
+    height: 200px;
+  }
+
+  .card-content {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+  .small-card img {
+    width: 100%;
   }
 }
