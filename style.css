@@ -529,6 +529,15 @@
   letter-spacing: 0%;
   text-align: left;
 }
+
+.marquee-container {
+  max-width: 75%;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 /* Mobile Responsive Media  */
 
 @media only screen and (max-width: 576px) {
@@ -553,7 +562,7 @@
   .nav-container {
     width: 100%;
     box-sizing: border-box;
-    border: 0.5px solid rgb(254, 163, 1);
+    border-bottom: 0.5px solid rgb(254, 163, 1);
   }
 
   .banner-container {
@@ -652,6 +661,16 @@
     width: 100%;
   }
 
+  .small-card-button-one {
+    top: 80px;
+    left: 20px;
+  }
+
+  .small-card-button-two {
+    bottom: 80px;
+    left: 15px;
+  }
+
   .footer-container {
     height: 560px;
     padding: 30px;
@@ -660,5 +679,9 @@
 
   .footer-logo-container {
     width: 100%;
+  }
+
+  .marquee-container {
+    font-size: 1rem;
   }
 }
