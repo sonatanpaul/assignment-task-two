@@ -685,3 +685,33 @@
     font-size: 1rem;
   }
 }
+
+/* Tablet Design Section  */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+
+  .curriculum-card-container {
+    flex-direction: column;
+  }
+
+  .stories-card-container {
+    flex-direction: column;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 600px;
+  }
+}
